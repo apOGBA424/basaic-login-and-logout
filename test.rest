@@ -1,0 +1,29 @@
+
+
+POST http://localhost:3000/signup
+Content-Type: application/json
+
+{
+    "username": "John Doe",
+    "email": "john@example.com",
+    "password": "123456"
+}
+###
+
+
+POST http://localhost:3000/signin
+Content-Type: application/json
+
+{
+    "email": "john@example.com",
+    "password": "123456"
+}
+###
+
+# hashedPassword-1:  $2a$12$X8mC5JP9VSdcWcV5IXFPUuqWyzd6FrssIeulewqd6Pi2soDp8aRB6
+# hashedPassword-2:  $2a$12$iKBpwTlrpAGcN5tzUy4KZOehzO1184yk5gkvA15OR8l/nihi6O0Em
+# hashedPassword-3:  $2a$12$sfRfS05PzilMFkJpjhDBfeH3wVrz3U7KLjepCeDzE/raEgHi6JbyO
+
+# hashedPassword--1: $2a$10$9D4uBJGVwINMrNw8m.zwDOvAMQr.lcer303uHI/pBMLlLpZiWMyXq
+
+

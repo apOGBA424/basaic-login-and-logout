@@ -2,6 +2,10 @@
 
 A simple authentication app built with Node.js, Express, EJS, and MongoDB. This project provides basic user authentication features, including login and logout functionality.
 
+## Live Demo
+
+Check out the live demo [here](https://cute-red-scallop-boot.cyclic.app/).
+
 ## Dependencies
 
 - [express](https://www.npmjs.com/package/express)
